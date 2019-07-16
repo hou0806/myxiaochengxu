@@ -135,7 +135,9 @@ Page({
         }
       })
     }
-    
+     wx.navigateTo({
+       url: '../../pages/index/index',
+     })
   },
 // 选择故障车周围环境图 拍照或选择相册
   bindCamera: function(){
